@@ -1,0 +1,11 @@
+1. Add Class
+2. Call fuction by their object
+
+ String pt;
+
+        pt = textView.getText().toString().trim();
+        k= kdatav.getText().toString().trim();
+        javaeandd je=new javaeandd();
+        String encryptedString = null; // encryption("JEET");
+        encryptedString = je.encrypt(pt,k).toString();
+        decryptedString = je.decrypt(pt,k).toString();
